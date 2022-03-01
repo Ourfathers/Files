@@ -40,76 +40,69 @@
     
             <div>
                 <label for="firstName">First Name:</label> 
-                <input type="text" name="firstName" id="firstName" placeholder= "first name"> 
-                <required> 
+                <input type="text" name="firstName" id="firstName" placeholder="firstName"><required> 
             </div>
             
             <div>
                 <label for="lastName">Last Name:</label> 
-                <input type="text" name="lastName" id="lastName" placeholder= "last name"> 
-                <required>
+                <input type="text" name="lastName" id="lastName" placeholder="lastName"><required>
             </div> 
                 <label for="Email">Email:</label> 
-                <input type="text" name="Email" id="Email" placeholder= "email"> 
-                <required>
-                <required>
+                <input type="text" name="Email" id="Email" placeholder="email"><required> 
             <div>
                 <label for="Phone">Phone:</label> 
-                <input type="text" name="Phone" id="Phone" placeholder= "phone"> 
-                <required>
+                <input type="tel" name="tel" id="tel" placeholder="tel"><required> 
             </div>
                 <label for="Check-in-Date">Check-in-Date:</label> 
-                <input type="text" name="Check-in-Date" id="Check-in-Date" placeholder= "mm/dd/yy"> 
-                <required> 
+                <input type="date" name="date" id="date" placeholder="mm/dd/yy"><required> 
             <div>
                 <label for="Check-out-Date">Check-out-Date:</label> 
-                <input type="text" name="Check-out-Date" id="Check-out-Date" placeholder= "mm/dd/yy"> 
-                <required> 
+                <input type="date" name="checkOut" id="checkOut" placeholder="mm/dd/yy"><required> 
             </div>  
-                <label for="">Number of Guests:</label> 
-                <input type="text" name="Number of Guests" id="Number of Guests" placeholder= "(4 is maximum)"> 
-                <required>
+                <label for="">guestsNum:</label> 
+                <input type="number" name="guestsAmt" id="guestsAmt" placeholder="(4 is maximum)"><required>
             <div>
-                <label for="Room Type">Room Type:</label> 
-                <input type="text" name="Room Type" id="Room Type">
                 
-            <select>
-                
-                <option>Choose One</option> 
-                <option>Two Double Beds</option>
-                <option>Two Queen Beds</option> 
-                <option>One King Bed</option> 
-            
-            </select>
-                </required>
-            <div>
-                <div>Ocean View (additional cost)</div> 
+            </div>
+            <label for="bed">Room:</label> 
+            <select name="bed" id="bed">
+                <option disabled hidden selected>Choose One</option>  
+                <option value="double">Two Double Beds</option>
+                <option value="queen">Two Queen Beds</option> 
+                <option value="king">One King Bed</option> 
+            </select> 
+        </div>
+                <div>Ocean View (additional cost)<br>
                 <label for="view">Yes</label> 
                 <input type="radio" name="view" id="yes" value="yes"> 
-
                 <label for="view">No</label>
                 <input type="radio" name="view" id="no" value="no"> 
             </div> 
-            </label>List Allergies and Other Requests
-                <label></label>
-<textarea></textarea> 
-                <div>
-                </label>Upload Vaccine Proof
-                <input type="file">
+            </label>List Allergies and Other Requests</label>
+            <textarea name="notes" id="notes"></textarea>
             </div>
-            <label>I agree to all the terms listed above.
-            <input type="checkbox"> 
+
+            <div>
+                </label for"vax" >Upload Vaccine Proof
+                <input type="file" name="vax" id="vax"required> 
             </div>
-            </label>Create a Password to Return. Username is your email. 
+            <label>I agree to all the terms listed above.</label>
+            <input type="checkbox" name="agree" id="agree"required>
+            </div> <br>
+            </label for="password"> Create a Password to Return. Username is your email.</label> 
+            <input type="password" name="password" id="password"> 
             <div>
-            <input type="submit" value="Submit">
-            <div>
-            <input type="reset" value="Reset">
+            <button type="submit">Submit</button>
+            </div>
+            <button type="reset">Reset</button>
             </div> 
-            
-            &copy;</h2>2022 The Inn at Snowy River
-            </div>
-            <label> Stowe, Vt
+            </form>
+    </section>
+
+    
+        </footer>
+            <p>&copy;</h2>2022 The Inn at Snowy River<br>
+            <label> Stowe, VT</p> 
 
 
 
