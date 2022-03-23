@@ -1,43 +1,56 @@
 html {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
      'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-height: 1.25rem;
      line-height: 1.5;
+     color: #3817cf;
 } 
 
 h1,
 h2,
 h3 { 
     color: #bb1b47;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    text-decoration: underline dotted rgba red (255,0,0) 7px; 
+    text-underline-offset: 7px;
 }           
 
 
-h1 {
-    font-size: 3.5rem; 
+h1 { 
+    font-size: 3rem; 
+    text-transform: uppercase;
+    font-weight:normal;
+    letter-spacing: .1rem;
 }
 
 h2 {
     font-size: 2rem;
+    text-decoration: none;
+
+h2::before,
+h2::after {
+    content: "\1f33b";
+    content: "\1f33b";
+}
+h3 { 
+    font-size: 1.5rem; 
     
 }
-h3 {
-    font-size: 1.5rem;
-}
 
-.site-intro {
+<class="site-intro"> {
     font-size: 1.25rem;
 }
 
 nav a:link {
-    color:green;
+    color:rgb(199, 28, 28);
 }
 
 nav a:visited {
-    color:crimson;
+    color:rgb(20, 220, 97); 
 }
 
 nav a:hover {
-    color:coral;
+    color:rgb(255, 185, 80);
     text-decoration: none; 
 }
 

@@ -1,0 +1,109 @@
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-height: 1.25rem;
+     line-height: 1.5;
+     color: #3817cf;
+
+} 
+
+h1,
+h2,
+h3 { 
+    color: #bb1b47;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    text-decoration: underline dotted rgb (122, 55, 101) 
+    text-underline-offset: 7px;
+}           
+
+h1 { 
+    font-size: 3rem; 
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    content: \1F33E;
+}
+
+h2 {
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+h2::before,
+h2::after {
+    content: "\1F33E ";
+    content: "\1F33E ";
+}
+
+h3 } 
+    font-size: 1.5rem; 
+    
+}
+
+nav li {
+    font-size: 1.6rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-weight: 700;
+    letter-spacing: 2px;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+nav,
+header {
+    text-align: center;
+}
+
+nav a,
+.assignments a,
+footer a {
+    text-decoration: none;
+    color: rgb(204, 54, 54)
+
+}
+
+nav a:link,
+nav a:visited {
+   line-height: 1.5;
+}
+
+nav a:visited {
+    color:rgb(20, 190, 220); 
+}
+
+nav a:hover,
+nav a:active {
+    text-decoration: underline wavy rgb(44, 161, 89) 3px;
+    text-underline-offset: 7px;
+    color: rgb(139, 130, 115);
+}
+
+nav a:hover::before {
+    content: "\1F33E";
+}
+
+header p {
+    font-size: 70%;
+}
+
+.assignments a:link,
+.assignments a:visited {
+    line-height: 1.8;
+}
+
+.assignments a:hover,
+.assignments a:active {
+    text-decoration: underline double (rgba #b3cf17) 3px;
+    text-underline-offset: 6px;
+}
+
+.assignments li::before {
+    content:"\1F33e ";
+    font-size: 1.8rem;
+}
+
+footer {
+    color: rgb(77, 95, 177);
+    line-height: 75%;
+    font-weight: 600;
+}
+    
