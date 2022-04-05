@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel=”stylesheet” href=”/css/form-style.css”> 
-    <title>Home</title>
-
-</head>
-<body>
+    <title>Form</title>
+    <link rel="stylesheet" href="/css/form-style.css"> 
     
+
+    </head>
+<body>
+
     <div id="wrapper"> 
 
     <nav>
@@ -38,34 +39,34 @@
         </ul> 
      </section> 
 
-    <section class="reserve"></section> 
+    <section class="reserve">
         <form method="post" name="reservation" data-netlify="true">
     
             <div>
                 <label for="firstName">First Name:</label> 
-                <input type="text" name="firstName" id="firstName" placeholder="firstName"><required> 
+                <input type="text" name="firstName" id="firstName" placeholder="firstName" required> 
             </div>
             
             <div>
                 <label for="lastName">Last Name:</label> 
-                <input type="text" name="lastName" id="lastName" placeholder="lastName"><required>
+                <input type="text" name="lastName" id="lastName" placeholder="lastName" required>
             </div> 
                 <label for="Email">Email:</label> 
-                <input type="text" name="Email" id="Email" placeholder="email"><required> 
+                <input type="text" name="Email" id="Email" placeholder="email" required> 
             <div>
                 <label for="Phone">Phone:</label> 
-                <input type="tel" name="tel" id="tel" placeholder="tel"><required> 
+                <input type="tel" name="tel" id="tel" placeholder="tel" required> 
             </div>
                 <label for="Check-in-Date">Check-in-Date:</label> 
-                <input type="date" name="date" id="date" placeholder="mm/dd/yy"><required> 
+                <input type="date" name="date" id="date" placeholder="mm/dd/yy" required> 
             <div>
                 <label for="Check-out-Date">Check-out-Date:</label> 
-                <input type="date" name="checkOut" id="checkOut" placeholder="mm/dd/yy"><required> 
+                <input type="date" name="checkOut" id="checkOut" placeholder="mm/dd/yy" required> 
             </div>  
                 <label for="">guestsNum:</label> 
-                <input type="number" name="guestsAmt" id="guestsAmt" placeholder="(4 is maximum)"><required>
+                <input type="number" name="guestsAmt" id="guestsAmt" placeholder="(4 is maximum)" required>
             <div>
-                
+            
             </div>
             <label for="bed">Room:</label> 
             <select name="bed" id="bed">
@@ -74,42 +75,43 @@
                 <option value="queen">Two Queen Beds</option> 
                 <option value="king">One King Bed</option> 
             </select> 
-        </div>
-                <div class="radio">
+        <div>
+                <div class="radio"> 
                 <span>Ocean View (add'l cost)<span><br> 
                 <label for="view">Yes</label> 
                 <input type="radio" name="view" id="yes" value="yes"> 
-                <label for="view">No</label>
+                <label for="view">No</label> 
                 <input type="radio" name="view" id="no" value="no"> 
             </div> 
-            </label>Allergies or Speical Requests</label>
+            </label>Allergies or Special Requests</label>
             <textarea name="notes" id="notes"></textarea>
-            </div>
+        </div> 
 
         </div><br>
-                <label for="vax" >Upload Vaccine Proof</label> 
-                <div><br>
-                <input type="file" name="vax" id="vax"required> 
-            </div><br>
+             <label for="vax" >Upload Vaccine Proof</label> 
+            <div>
+            <input type="file" name="vax" id="vax" required> 
+            </div>
             <label for="agree">I agree to all the terms listed above.</label> 
-            <input type="checkbox" name="agree" id="agree"required>
-            </div> <br>
+            <input type="checkbox" name="agree" id="agree" required>
+            </div> 
             </label for="password"> Create a Password to Return. Username is your email.</label> 
             <input type="password" name="password" id="password"> 
-            <div><br>
+            <div>
             <button type="submit">Submit</button>
             </div>
             <button type="reset">Reset</button>
-            </div> 
+            <div>  
         </form>
     </section>
 
-    </div id="wrapper">
 
+        <footer>
+            <p>&copy;2022 The Jerusalem Inn</p>
+            <P>Tel-Aviv Yafo, Israel</p>
         </footer>
-            <p>&copy;2022 The Jerusalem Inn</p><br>
-            <label>Tel-Aviv Yafo, Israel</p> 
-        </footer>
+    </div> 
+
 
 </body>
 </html>
@@ -132,4 +134,4 @@
 
     
         
-       l> 
+       
