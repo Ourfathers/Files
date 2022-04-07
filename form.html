@@ -22,13 +22,12 @@
         </ul>
     </nav> 
 
+        <header class="intro">
+            <h1>Reserve Your Room</h1> 
+            <h2>Our Reservation Policies</h2> 
+        </header> 
 
-    <header class="intro">
-        <h1>Reserve Your Room</h1> 
-        <h2>Our Reservation Policies</h2> 
-    </header> 
-
-    <section class="policies">
+        <section class="policies">
         <ul>
             <li>Check-in Time after 3:00pm on</li>
             <li>Check-out Time by 11:00am or charges are incurred</li>
@@ -51,73 +50,98 @@
                 <label for="lastName">Last Name:</label> 
                 <input type="text" name="lastName" id="lastName" placeholder="lastName" required>
             </div> 
+
+            <div>
                 <label for="Email">Email:</label> 
                 <input type="text" name="Email" id="Email" placeholder="email" required> 
             <div>
+
+            </div> 
                 <label for="Phone">Phone:</label> 
                 <input type="tel" name="tel" id="tel" placeholder="tel" required> 
+            <div>
+
             </div>
                 <label for="Check-in-Date">Check-in-Date:</label> 
                 <input type="date" name="date" id="date" placeholder="mm/dd/yy" required> 
-            <div>
+            </div>
+
+            </div>
                 <label for="Check-out-Date">Check-out-Date:</label> 
                 <input type="date" name="checkOut" id="checkOut" placeholder="mm/dd/yy" required> 
-            </div>  
+            <div> 
+
+            <div>
                 <label for="">guestsNum:</label> 
                 <input type="number" name="guestsAmt" id="guestsAmt" placeholder="(4 is maximum)" required>
-            <div>
+            </div> 
             
+            <div>
+                <label for="bed">Room:</label> 
             </div>
-            <label for="bed">Room:</label> 
-            <select name="bed" id="bed">
-                <option disabled hidden selected>Choose One</option>  
-                <option value="double">Two Double Beds</option>
-                <option value="queen">Two Queen Beds</option> 
-                <option value="king">One King Bed</option> 
-            </select> 
-        <div>
-                <div class="radio"> 
-                <span>Ocean View (add'l cost)<span><br> 
+
+            <div>
+                <select name="bed" id="bed">
+                    <option disabled hidden selected>Choose One</option>  
+                    <option value="double">Two Double Beds</option>
+                    <option value="queen">Two Queen Beds</option> 
+                    <option value="king">One King Bed</option> 
+                </select> 
+            </div>
+
+            <div class="radio"> 
+                <span>Ocean View (add'l cost)</span>
                 <label for="view">Yes</label> 
                 <input type="radio" name="view" id="yes" value="yes"> 
                 <label for="view">No</label> 
                 <input type="radio" name="view" id="no" value="no"> 
             </div> 
-            </label>Allergies or Special Requests</label>
-            <textarea name="notes" id="notes"></textarea>
-        </div> 
 
-        </div><br>
-             <label for="vax" >Upload Vaccine Proof</label> 
             <div>
-            <input type="file" name="vax" id="vax" required> 
-            </div>
-            <label for="agree">I agree to all the terms listed above.</label> 
-            <input type="checkbox" name="agree" id="agree" required>
+                <label>Allergies or Special Requests</label>
+                <textarea name="notes" id="notes" ></textarea>
             </div> 
-            </label for="password"> Create a Password to Return. Username is your email.</label> 
-            <input type="password" name="password" id="password"> 
+
             <div>
-            <button type="submit">Submit</button>
+                <label for="vax">Upload Vaccine Proof</label> 
+                <input type="file" name="vax" id="vax" required> 
             </div>
-            <button type="reset">Reset</button>
-            <div>  
+
+            <div>
+                <label for="agree">I agree to all the terms listed above.</label> 
+                <input type="checkbox" name="agree" id="agree" required>
+            </div>
+            
+            <div> 
+                </label for="password"> Create a Password to Return. Username is your email.</label> 
+                <input type="password" name="password" id="password"> 
+            </div>    
+            
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+
+            <div>
+                <button type="reset">Reset</button>
+            </div>
+
         </form>
-    </section>
+    </section> 
 
 
         <footer>
-            <p>&copy;2022 The Jerusalem Inn</p>
-            <P>Tel-Aviv Yafo, Israel</p>
+            <p>&copy; 2022 The Jerusalem Inn</p>
+            <p>Tel-Aviv Yafo, Israel</p>
         </footer>
-    </div> 
+    
+    <div>
+                 
+
 
 
 </body>
 </html>
-
-
-                  
+         
 
 
 
