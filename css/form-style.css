@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    background-image: url(/img/Cat-1024.jpeg);
+    background-image: url(/img/Jerusalem_Dome_of_the_rock.img); 
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat; 
@@ -22,7 +22,7 @@ body {
 
 #wrapper {
     width: 60%;
-    background-color: rgba( 98, 167, 232, .5 ); 
+    background-color: rgba(37, 175, 118, 0.5); 
     color:rgb(181, 196, 197);
     padding: 2rem;
     border-radius: 2rem;
