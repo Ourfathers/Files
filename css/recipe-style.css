@@ -1,3 +1,4 @@
+
 /*
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
      'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -158,3 +159,128 @@ footer ul{
 footer p {
     clear: both;
 }
+
+
+/* media queries go below */
+
+@media (max-width: 360px) {
+
+    html {
+        line-height: 135%;
+    }
+
+}
+
+nav a {
+    padding: 5px;
+    letter-spacing: normal;
+    font-size: .9rem;
+}
+
+nav ul {
+    padding-left: 10px;
+
+}
+
+main {
+    width: 90%;
+}
+
+h1 {
+    font-size: 1.5rem;
+    text-shadow: none;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+img {
+    float: none;
+    max-width: 60%;
+    margin-left: 20%;
+}
+
+.rate {
+    font-size: 1rem;
+}
+
+.details,
+.ingredients,
+.instructions,
+.nutrition {
+    width: 90%; 
+    float: none; 
+
+}
+
+    .col1,
+    .col2,
+    .col3 {
+        display: block;
+        float: none; 
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 810px) { 
+
+    html {
+        line-height: 125%;
+    }
+
+}
+
+nav a {
+    padding: 5px;
+    letter-spacing: normal;
+    font-size: .9rem;
+}
+
+nav ul {
+    padding-left: 8px;
+
+}
+
+main {
+    width: 90%;
+}
+
+h1 {
+    font-size: 1.5rem;
+    text-shadow: none;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+img {
+    float: none;
+    max-width: 60%;
+    margin-left: 20%;
+}
+
+.rate {
+    font-size: 3rem;
+}
+
+.details,
+.ingredients,
+.instructions,
+.nutrition {
+    width: 80%; 
+    float: none; 
+
+}
+
+    .col1,
+    .col2,
+    .col3 {
+        display: block;
+        float: left; 
+        width: 90%;
+    }
+
+
