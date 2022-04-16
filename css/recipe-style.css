@@ -169,48 +169,46 @@ footer p {
         line-height: 135%;
     }
 
-}
+    nav a {
+        padding: 5px;
+        letter-spacing: normal;
+        font-size: .9rem;
+    }
 
-nav a {
-    padding: 5px;
-    letter-spacing: normal;
-    font-size: .9rem;
-}
+    nav ul {
+        padding-left: 10px;
 
-nav ul {
-    padding-left: 10px;
+    }
 
-}
+    main {
+        width: 90%;
+    }
 
-main {
-    width: 90%;
-}
+    h1 {
+        font-size: 1.5rem;
+        text-shadow: none;
+    }
 
-h1 {
-    font-size: 1.5rem;
-    text-shadow: none;
-}
+    h2 {
+        font-size: 1.2rem;
+    }
 
-h2 {
-    font-size: 1.2rem;
-}
+    img {
+        float: none;
+        max-width: 60%;
+        margin-left: 20%;
+    }
 
-img {
-    float: none;
-    max-width: 60%;
-    margin-left: 20%;
-}
+    .rate {
+        font-size: 1rem;
+    }
 
-.rate {
-    font-size: 1rem;
-}
-
-.details,
-.ingredients,
-.instructions,
-.nutrition {
-    width: 90%; 
-    float: none; 
+    .details,
+    .ingredients,
+    .instructions,
+    .nutrition {
+        width: 90%; 
+        float: none; 
 
 }
 
@@ -230,50 +228,50 @@ img {
         line-height: 125%;
     }
 
-}
+    }
 
-nav a {
-    padding: 5px;
-    letter-spacing: normal;
-    font-size: .9rem;
-}
+    nav a {
+        padding: 5px;
+        letter-spacing: normal;
+        font-size: .9rem;
+    }
 
-nav ul {
-    padding-left: 8px;
+    nav ul {
+        padding-left: 8px;
 
-}
+    }
 
-main {
-    width: 90%;
-}
+    main {
+        width: 90%;
+    }
 
-h1 {
-    font-size: 1.5rem;
-    text-shadow: none;
-}
+    h1 {
+        font-size: 1.5rem;
+        text-shadow: none;
+    }
 
-h2 {
-    font-size: 1.2rem;
-}
+    h2 {
+        font-size: 1.2rem;
+    }
 
-img {
-    float: none;
-    max-width: 60%;
-    margin-left: 20%;
-}
+    img {
+        float: none;
+        max-width: 60%;
+        margin-left: 20%;
+    }
 
-.rate {
-    font-size: 3rem;
-}
+    .rate {
+        font-size: 3rem;
+    }
 
-.details,
-.ingredients,
-.instructions,
-.nutrition {
-    width: 80%; 
-    float: none; 
+    .details,
+    .ingredients,
+    .instructions,
+    .nutrition {
+        width: 80%; 
+        float: none; 
 
-}
+    }
 
     .col1,
     .col2,
@@ -283,4 +281,5 @@ img {
         width: 90%;
     }
 
+}
 
