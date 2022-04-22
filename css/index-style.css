@@ -13,15 +13,30 @@ h3 {
     color: #bb1b47;
     font-family:Georgia, 'Times New Roman', Times, serif; 
     text-decoration: underline dotted rgb (122, 55, 101);
-    text-underline-offset: 7px;
+    text-underline-offset: 12px;
 }           
 
 h1 { 
     font-size: 3rem; 
-    text-transform: uppercase;
-    letter-spacing: .1rem;
-    content: \1F33E;
+    opacity: 0%;
 }
+
+.fade-text {
+    animation: fadeTxt linear 7s 14s;
+    animation-fill-mode: forwards; /*Makes it stay after animation*/
+}
+
+@keyframes fadeTxt {
+    0% {
+        opacity:0;
+    }
+    50% {
+        font-size 2.25rem;
+    }
+    100% {
+        opacity:1;
+        font-size: 3.25rem;
+    }
 
 h2 {
     font-size: 2rem;
@@ -41,7 +56,7 @@ h3 }
 
 nav li {
     font-size: 1.6rem;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 700;
     letter-spacing: 2px;
     list-style-type: none;
@@ -57,7 +72,7 @@ nav a,
 .assignments a,
 footer a {
     text-decoration: none;
-    color: rgb(204, 54, 54)
+    color: rgb(204, 54, 54);
 
 }
 
@@ -92,7 +107,7 @@ header p {
 
 .assignments a:hover,
 .assignments a:active {
-    text-decoration: underline double (rgba #b3cf17) 3px;
+    text-decoration: underline double (rgba #b3cf17) 3px; 
     text-underline-offset: 6px;
 }
 
@@ -106,4 +121,88 @@ footer {
     line-height: 75%;
     font-weight: 600;
 }
-    
+
+header p {
+    font-size: 80%;
+}
+
+.fade img {
+    animation: fadeImg ease 20s;
+    animation-fill-mode: forwards; /*Makes it stay after animation*/
+}
+@keyframes fadeImg {
+    0% {
+        opacity:0%;
+    }
+    100% {
+        opacity:1;
+        border-radius: 50%; 
+        border: solid #3817cf 8px;
+    }
+}
+
+main,
+header {
+    width: 60%;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+
+h2 {
+    font-size: 2.2rem;
+    text-decoration: none;
+}
+
+h2::before,
+h2::after {
+    content: "\1f33b ";
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+nav {
+    float: right;
+    position: sticky;
+    top: 0;
+    background-color:#248c3a;
+    width: 240px;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    letter-spacing: 1px;
+    list-style-type: none; 
+    text-transform: uppercase; 
+}
+
+footer {
+    line-height: 80%;
+    font-weight: 600;
+    position: relative;
+}
+
+small {
+    float: right;
+    padding: 20px 0 40px 0;
+}
+
+
+/*
+
+small {
+    position: absolute;
+    bottom: -130px;
+    right: 0;
+    padding: 30px 0;
+}
+
+*/
