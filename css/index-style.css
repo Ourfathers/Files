@@ -2,7 +2,7 @@ html {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
      'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
      font-height: 1.25rem;
-     line-height: 1.5;
+     line-height: 1.5rem;
      color: #3817cf;
 
 } 
@@ -22,19 +22,19 @@ h1 {
 }
 
 .fade-text {
-    animation: fadeTxt linear 7s 14s;
+    animation: .fadeTxt linear 7s 14s;
     animation-fill-mode: forwards; /*Makes it stay after animation*/
 }
 
-@keyframes fadeTxt {
+@keyframes .fadeTxt {
     0% {
-        opacity:0;
+        opacity: 0;
     }
     50% {
-        font-size 2.25rem;
+        font-size: 2.25rem;
     }
     100% {
-        opacity:1;
+        opacity: 1;
         font-size: 3.25rem;
     }
 
@@ -126,20 +126,21 @@ header p {
     font-size: 80%;
 }
 
-.fade img {
-    animation: fadeImg ease 20s;
+.fade img
+    animation: .fade-img ease 16s;
     animation-fill-mode: forwards; /*Makes it stay after animation*/
 }
-@keyframes fadeImg {
+
+@keyframes .fade-img;
     0% {
-        opacity:0%;
+        opacity: 0%;
     }
     100% {
-        opacity:1;
+        opacity: 1;
         border-radius: 50%; 
         border: solid #3817cf 8px;
     }
-}
+
 
 main,
 header {
