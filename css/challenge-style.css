@@ -1,31 +1,34 @@
+:root {
+    --font-size: 1vw;
+    --color-red: #29b071;
+}
+
 html {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
      'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-     font-height: 1.25rem;
-     line-height: 1.5;
-     color:#bb1b47;
+    font-height: 1.25rem;
+    font-size: calc(var(--font-size) + 14px);
+    line-height: 1.6;
 } 
 
 h1, 
 h2,
 h3 { 
-    color: #bb1b47;
+    color: var(--color-green);
     font-family:Georgia, 'Times New Roman', Times, serif; 
-    text-decoration: underline dotted rgba red (255,0,0) 7px; 
-    text-underline-offset: 7px;
 }           
 
 
 h1 { 
-    font-size: 3rem; 
-    text-transform: uppercase;
-    font-weight:normal;
-    letter-spacing: .1rem;
+    font-size: calc(var(--font-size) * 6);
+    background-image: linear-gradient(60deg, var(--color-red), #2b9bd3);
+    background-clip: text;
+    color: transparent;
 }
 
 h2 {
-    font-size: 2rem;
-    text-decoration: none;
+    font-size: calc(var(--font-size) + 32px);
+}    
 
 h2::before,
 h2::after {
@@ -35,6 +38,46 @@ h2::after {
 h3 { 
     font-size: 1.5rem; 
     
+}
+
+nav {
+    background-image: linear-gradient(60deg, rgb(92, 92, 117), rgb(206, 206, 4), rgba(255, 192, 203, 0.751)); 
+}
+
+nav ul::before {
+    content: "\1f34d";
+    font-size: 5rem;
+}
+
+nav ul {
+    padding-left: 0;
+    width: calc(60% + 30px);
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+.signif-design li {
+    list-style-type: "\1f33b";
+    text-indent: .5rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: calc(80% - 40px);
+    margin: 0 auto;
+}
+
+main {
+    width: calc(60% - 40px);
+    margin: 0 auto; 
+}
+
+img {
+    max-width: 95%;
 }
 
 <class="site-intro"> {
@@ -50,8 +93,13 @@ nav a:visited {
 }
 
 nav a:hover {
-    color:rgb(255, 185, 80);
+    color:rgb(99, 94, 86);
     text-decoration: none; 
+}
+
+footer {
+    font-size: 18px;
+    line-height: 1.1;
 }
 
 
